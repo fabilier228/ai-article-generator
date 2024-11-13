@@ -26,3 +26,17 @@ def generate_html_content(article_content):
 
     html_content = response.choices[0].message.content
     return html_content
+
+def generate_article_preview(content, template):
+    with open(template, "r") as file:
+        html_template = file.read()
+
+    params = {
+        "title": "Article Preview",
+        "content": content
+    }
+
+    html_output = html_template.replace("{{ title }}", params["title"]) \
+                                .replace("{{ content }}", params["content"])
+
+    return html_output
