@@ -1,7 +1,9 @@
 from openai import OpenAI
 
+# Here write code from instruction in README.md
+
 client = OpenAI(
-    api_key="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"
+    # Here write code from instruction in README.md
 )
 
 def generate_html_content(article_content):
