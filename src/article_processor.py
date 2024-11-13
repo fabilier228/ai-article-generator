@@ -1,9 +1,7 @@
 from openai import OpenAI
 
-# Here write code from instruction in README.md
-
 client = OpenAI(
-    # Here write code from instruction in README.md
+    # Here write code from instruction in README.md)
 )
 
 def generate_html_content(article_content):
