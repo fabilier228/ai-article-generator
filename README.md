@@ -26,7 +26,7 @@ pip install -r requirements.txt
 To make the program work, create an account on [openAI](https://platform.openai.com/docs/overview) and generate an API key. 
 Then, paste it into **`src/article_processor.py`** in the designated place.
 
-Program uruchamiamy:
+Run the program with:
 
 ```bash
   py src/main.py
