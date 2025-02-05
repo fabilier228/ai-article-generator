@@ -1,37 +1,37 @@
 
-# ZADANIE REKRUTACYJNE OXIDO
+# HTML ARTICLE GENERATOR USING OPENAI
 
-Witam bardzo serdecznie w repozytorium z moim rozwiązaniem :)
+This non-complex program uses OpenAI API, to create html template for written article.
+To make it work all you have to do is place desired article in data directory named as "artykul.txt" then follow the instructions below :)
+Have Fun !!
 
-W kodzie została uwzględniona również część przeznaczona "dla chętnych", dlatego w folderze output istnieje rozwiązanie dla części pierwszej jak i tej drugiej.
+## Repository Structure  
 
-W repozytorium są trzy główne katalogi:
-- src 
-- output 
-- data
+The repository consists of three main directories:  
 
-### src - katalog zawierający główny kod 
-### data - katalog z danymi wejściowymi oraz szablonem
-### output - katalog na dane wyjściowe
-## Installation
+- **`src`** - contains the main code  
+- **`data`** - contains input data and the template  
+- **`output`** - stores output data  
 
-W celu wypróbowania programu sciągamy repo używając git clone
+## Installation  
+
+To try out the program, clone the repository using Git:  
 
 ```bash
-  git clone https://github.com/fabilier228/zadanie-rekrutacyjne-oxido
-  cd zadanie-rekrutacyjne-oxido
-  pip install -r requirements.txt
+git clone https://github.com/fabilier228/zadanie-rekrutacyjne-oxido
+cd zadanie-rekrutacyjne-oxido
+pip install -r requirements.txt
 ```
 
-Aby program działał na stronie [openAI](https://platform.openai.com/docs/overview) zakładamy konto i generujemy key API, a następnie wklejamy w src/article_processor.py,
-w miejscu do tego przeznaczonym.
+To make the program work, create an account on [openAI](https://platform.openai.com/docs/overview) and generate an API key. 
+Then, paste it into src/article_processor.py in the designated place.
 
 Program uruchamiamy:
 
 ```bash
   py src/main.py
 ```    
-## Dokumentacja
+## Documentation
 
 [openai-python](https://github.com/openai/openai-python)
 
