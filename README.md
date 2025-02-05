@@ -18,7 +18,7 @@ The repository consists of three main directories:
 To try out the program, clone the repository using Git:  
 
 ```bash
-git clone https://github.com/fabilier228/zadanie-rekrutacyjne-oxido
+git clone https://github.com/fabilier228/ai-article-generator
 cd zadanie-rekrutacyjne-oxido
 pip install -r requirements.txt
 ```
